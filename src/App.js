@@ -1,9 +1,12 @@
 import React from "react";
+import MyRouter from "./MyRouter";
 
 export default function App() {
   return (
     <div>
-      <h1>Welcome to React with successfully webpack configured..!</h1>
+      <main>
+        <MyRouter />
+      </main>
     </div>
   );
 }
