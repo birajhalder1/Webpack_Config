@@ -21,4 +21,9 @@ module.exports = {
     ],
   },
   devtool: "eval-source-map",
+  resolve: {
+    alias: {        
+        'react-router-dom': path.resolve('./node_modules/react-router-dom')
+    }
+}
 };
