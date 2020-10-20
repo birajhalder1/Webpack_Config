@@ -34,14 +34,14 @@ export default function Register() {
         style={
           matches
             ? {
-                marginRight: 300,
+                marginRight: 20,
                 marginLeft: 20,
                 marginTop: 80,
                 //   borderWidth: "2px",
                 //   borderStyle: "inset",
               }
             : {
-                marginRight: 20,
+                marginRight: 100,
                 marginLeft: 100,
                 marginTop: 10,
                 //   borderWidth: "2px",

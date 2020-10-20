@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Route, Switch } from "react-router-dom"
+import { Route, Switch } from "react-router-dom"
 
 import Home from "./components/Home/Home"
 import Register from "./components/Layout/Register"
@@ -11,14 +11,12 @@ export default function App() {
   return (
     <div>
       <Header />
-      <BrowserRouter>
       <Switch>
         <Route exact from="/" render={props => <Home {...props} />} />
         <Route exact path="/register" render={props => <Register {...props} />} />
         <Route exact path="/about" render={props => <About {...props} />} />
         <Route exact path="/contact" render={props => <Contact {...props} />} />
       </Switch>
-      </BrowserRouter>
     </div>
   );
 }
